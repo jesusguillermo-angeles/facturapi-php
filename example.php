@@ -83,7 +83,7 @@ var_dump( $new_customer );
 
 
 $customer = array(
-	"email"      => "testa@mestapapa.com",
+	"email"      => "sistemas@lebel.mx",
 	"legal_name" => "Testa Mesta Papa",
 );
 

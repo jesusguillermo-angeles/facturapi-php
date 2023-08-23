@@ -6,6 +6,7 @@ require_once 'src/Facturapi.php';
 
 
 $facturapi = new Facturapi( FACTURAPI_KEY );
+$facturapi = new Facturapi( "sk_test_bpDlEzNokXvnj5ZQKZ051X6GNAqaWGr28A0PV7xL49" );
 
 
 var_dump( $facturapi->Invoices->retrieve( "5a3f54cff508333611ad6b40" ) );
